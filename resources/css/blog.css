@@ -1,0 +1,18 @@
+body {
+background-color: black;
+background-repeat: inherit;
+background-size: cover;
+
+}
+
+
+
+img {
+
+margin: auto;
+padding: 50px;
+width: 50%;
+display: block;
+
+
+}

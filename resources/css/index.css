@@ -1,0 +1,72 @@
+
+
+
+
+
+a  {
+
+     text-align: center;
+     padding: 20px 120px 20px 180px;
+     font-size: 30px;
+     font-style: normal;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
+     text-decoration: none;
+     
+
+    }
+
+
+
+    body {
+background-color:  black;
+background-repeat: inherit;
+background-size: cover;
+
+}
+
+
+
+.right {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.video {
+
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin: 50px;
+    border: 20px;
+    border-color: aliceblue;
+    border-width: 20px;
+    
+    
+
+}
+
+
+iframe {
+
+    border: 2px;
+    border-color: aliceblue;
+    border-width: 20px;
+
+}
+
+.left {
+    
+    display: block;
+    max-width: 900px;
+    height: 470px;
+    padding: 100px 100px 100px 100px;
+    margin: 100px;
+    
+    
+
+
+}
+

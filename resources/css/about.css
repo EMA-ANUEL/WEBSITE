@@ -1,0 +1,54 @@
+
+
+
+body {
+    
+    background-image: url(../images/backgroundposter2.jpg) ;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 90%;
+    background-position: 0cm;
+    background-position-y: 36px;
+
+    margin: 20px;
+    border: 200px;
+    padding: 200px;
+    width: 500px;
+
+   
+}
+
+
+    
+a   {
+
+
+    display: block;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: lighter;
+ 
+ 
+ }
+ 
+ 
+h2  {
+
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-weight: bolder;
+    
+ 
+ 
+ }
+
+ p  {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    font-weight: lighter;
+    
+}
