@@ -6,7 +6,7 @@
 a  {
 
 
-     display: block;
+     display: inline-block;
      text-align: center;
      padding: 10px 120px 20px 180px;
      font-size: 30px;
@@ -20,10 +20,12 @@ a  {
 
 
 
-    body {
-background-color:  black;
-background-repeat: inherit;
-background-size: cover;
+body {
+
+        position: relative;
+    background-color:  black;
+    background-repeat: inherit;
+    background-size: cover;
 
 
 }
@@ -40,6 +42,7 @@ background-size: cover;
 
 .video {
 
+    position: relative;
     display: inline-block;
     padding: 20px 20px 20px 20px;
     margin: 50px;
