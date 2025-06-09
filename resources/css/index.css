@@ -5,8 +5,10 @@
 
 a  {
 
+
+     display: inline-block;
      text-align: center;
-     padding: 20px 120px 20px 180px;
+     padding: 10px 120px 20px 180px;
      font-size: 30px;
      font-style: normal;
      font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,6 +24,7 @@ a  {
 background-color:  black;
 background-repeat: inherit;
 background-size: cover;
+display: flex;
 
 }
 
@@ -43,6 +46,8 @@ background-size: cover;
     border: 20px;
     border-color: aliceblue;
     border-width: 20px;
+    max-width: 100%
+    
     
     
 
@@ -54,6 +59,7 @@ iframe {
     border: 2px;
     border-color: aliceblue;
     border-width: 20px;
+    
 
 }
 
