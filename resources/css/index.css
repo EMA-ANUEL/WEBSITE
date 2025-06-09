@@ -24,7 +24,7 @@ a  {
 background-color:  black;
 background-repeat: inherit;
 background-size: cover;
-display: flex;
+
 
 }
 
@@ -46,7 +46,7 @@ display: flex;
     border: 20px;
     border-color: aliceblue;
     border-width: 20px;
-    max-width: 100%
+    
     
     
     
