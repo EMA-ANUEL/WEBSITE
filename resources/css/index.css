@@ -23,6 +23,7 @@ body {
     background-color:  black;
     background-repeat: inherit;
     background-size: cover;
+    padding: 0 20px;
     
 
 
@@ -32,11 +33,13 @@ body {
 
 body .video{
 
+        display: flex;
         position: relative;
         padding-bottom: 56.25%; 
         padding-left: 5%;
         height: 0;
         max-width: 98%;
+        margin: 0 auto 25px auto; 
     
 }
 
