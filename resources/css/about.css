@@ -27,11 +27,10 @@ body {
     max-width: 800px; 
     
     /* Center the container horizontally */
-    margin: auto; 
+    margin: 0 auto; 
     
     /* Add padding so content doesn't touch the screen edges on mobile */
-    /* More padding on top and bottom for spacing */
-    padding: 155px;
+    padding: 40px 20px; 
     color: white;
 }
 
@@ -49,9 +48,11 @@ h2:first-child {
 }
 
 p {
+    color: white;
     font-weight: lighter;
-    line-height: 1.7; /* Increased line-height for better readability of paragraphs */
+    line-height: 1.7; /* Increased line-height for better readability */
     margin-bottom: 1.2em;
+    max-width: 100%; /* Ensures text flows naturally within the wrapper */
 }
 
 a {
@@ -81,6 +82,6 @@ a:hover {
 
     /* Nudge the container to the left. 
        A negative value moves it left. Adjust as needed! */
-    left: -20%; 
+    left: -8%; 
   }
 }
