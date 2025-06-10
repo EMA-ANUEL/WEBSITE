@@ -2,14 +2,14 @@ body {
 background-color: black;
 background-repeat: inherit;
 background-size: cover;
-margin: 0;
+margin: 50px;
 
 }
 
 .wrapper {
   /* This value must be LARGER than the image's max-width */
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 1600px;
+  margin: auto;
   padding: 20px; 
 }
 
@@ -20,7 +20,7 @@ img {
   margin: auto; /* This does the centering */
   
   /* This value must be SMALLER than the wrapper's max-width */
-  max-width: 600px; 
+  max-width: 800px; 
   width: 100%; /* Keep this for mobile responsiveness */
 }
 
