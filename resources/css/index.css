@@ -33,7 +33,7 @@ nav a {
 .header-gif {
     display: block;
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 350px; /* Adjust as needed */
     margin: 0 auto 40px auto;
 }
 
@@ -91,9 +91,10 @@ nav a {
 
   nav a {
     /* Reduce font size to save space */
-    font-size: 16px; 
+    font-size: 12px; 
 
     /* Reduce horizontal padding significantly */
-    padding: 10px 8px;
+    padding: 5px 4px;
   }
+
 }
