@@ -14,14 +14,13 @@ margin: 0;
     margin: auto; 
     
     /* Add padding so content doesn't touch the screen edges on mobile */
-    padding: 40px 20px; 
+    padding: 20px; 
     color: white;
 }
 
 img {
 
 margin: auto;
-padding: 20px;
 width: 100%;
 display: block;
 
