@@ -91,10 +91,10 @@ nav a {
 
   nav a {
     /* Reduce font size to save space */
-    font-size: 12px; 
+    font-size: 15px; 
 
     /* Reduce horizontal padding significantly */
-    padding: 5px 4px;
+    padding: 5px 6px;
   }
 
 }
