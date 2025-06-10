@@ -24,7 +24,7 @@ body {
 /* This holds and centers all your text content */
 .wrapper {
     /* Set a max-width for readability on large screens */
-    max-width: 400px; 
+    max-width: 800px; 
     
     /* Center the container horizontally */
     margin: auto; 
