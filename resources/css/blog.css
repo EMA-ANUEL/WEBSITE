@@ -7,22 +7,20 @@ margin: 0;
 }
 
 .wrapper {
-    /* Set a max-width for readability on large screens */
-    max-width: 600px; 
-    
-    /* Center the container horizontally */
-    margin: auto; 
-    
-    /* Add padding so content doesn't touch the screen edges on mobile */
-    padding: 20px; 
-    color: white;
+  /* This value must be LARGER than the image's max-width */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; 
 }
 
-.wrapper img {
+/* The "Picture" */
+img {
 
-display: block;
-width: 100%;
-max-width: 600px; 
-
+  display: block;
+  margin: auto; /* This does the centering */
+  
+  /* This value must be SMALLER than the wrapper's max-width */
+  max-width: 600px; 
+  width: 100%; /* Keep this for mobile responsiveness */
 }
 
