@@ -6,13 +6,23 @@ margin: 0;
 
 }
 
-
+.wrapper {
+    /* Set a max-width for readability on large screens */
+    max-width: 800px; 
+    
+    /* Center the container horizontally */
+    margin: 0 auto; 
+    
+    /* Add padding so content doesn't touch the screen edges on mobile */
+    padding: 40px 20px; 
+    color: white;
+}
 
 img {
 
 margin: auto;
-padding: 50px;
-width: 50%;
+padding: 20px;
+width: 100%;
 display: block;
 
 
