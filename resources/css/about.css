@@ -1,54 +1,86 @@
-
-
-
+/* --- Responsive Body and Background --- */
 body {
-    
-    background-image: url(../images/backgroundposter2.jpg) ;
-    background-repeat: no-repeat;
     background-color: black;
-    background-size: 90%;
-    background-position: 0cm;
-    background-position-y: 36px;
-
-    margin: 20px;
-    border: 200px;
-    padding: 200px;
-    width: 500px;
-
-   
+    /* Make sure your image path is correct */
+    background-image: url(../images/backgroundposter2.jpg); 
+    background-repeat: no-repeat;
+    
+    /* Makes the background image cover the screen without distortion */
+    background-size: cover; 
+    
+    /* Keeps the background fixed in place during scroll */
+    background-attachment: fixed; 
+    
+    /* Centers the background image */
+    background-position: center center; 
+    
+    /* Reset default browser spacing */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+/* --- Content Wrapper --- */
+/* This holds and centers all your text content */
+.wrapper {
+    /* Set a max-width for readability on large screens */
+    max-width: 400px; 
     
-a   {
-
-
-    display: block;
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Center the container horizontally */
+    margin: auto; 
+    
+    /* Add padding so content doesn't touch the screen edges on mobile */
+    /* More padding on top and bottom for spacing */
+    padding: 155px;
     color: white;
-    font-weight: lighter;
- 
- 
- }
- 
- 
-h2  {
+}
 
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* --- Element Styling --- */
+h2 {
     color: aliceblue;
     font-weight: bolder;
-    
- 
- 
- }
+    /* Add some space below headings */
+    margin-bottom: 1em; 
+    margin-top: 2em; /* Add space above headings for separation */
+}
 
- p  {
+h2:first-child {
+    margin-top: 0; /* Remove top margin from the very first heading */
+}
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    display: flex;
+p {
     font-weight: lighter;
-    
+    line-height: 1.7; /* Increased line-height for better readability of paragraphs */
+    margin-bottom: 1.2em;
+}
+
+a {
+    display: block; /* Puts each link on its own line, good for lists */
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-bottom: 1em; /* Adds space between each link */
+    transition: color 0.2s; /* Smooth color change on hover */
+}
+
+a:hover {
+    color: #cccccc; /* Slightly dims the link on hover as feedback */
+}
+
+/*
+  =======================================================
+  MEDIA QUERY TO SHIFT CONTENT ON DESKTOP
+  =======================================================
+*/
+
+/* This code only applies to screens wider than 1024px */
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    /* This allows us to move the element without breaking the layout */
+    position: relative;
+
+    /* Nudge the container to the left. 
+       A negative value moves it left. Adjust as needed! */
+    left: -20%; 
+  }
 }
